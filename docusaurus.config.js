@@ -16,7 +16,7 @@ const config = {
     "docs": "knowledge",
     "mainTitle": "主页"
   },
-  url: '',   // -----------------------你的主页-----------------------
+  url: 'https://example.com/',   // -----------------------你的主页-----------------------
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
   baseUrl: '/',
