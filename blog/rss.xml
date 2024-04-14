@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0">
+    <channel>
+        <title>Yinselの小窝 Blog</title>
+        <link>https://home.yinsel.top/blog</link>
+        <description>Yinselの小窝 Blog</description>
+        <lastBuildDate>Sun, 14 Apr 2024 19:19:05 GMT</lastBuildDate>
+        <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
+        <generator>https://github.com/jpmonette/feed</generator>
+        <language>zh-Hans</language>
+        <item>
+            <title><![CDATA[示例2]]></title>
+            <link>https://home.yinsel.top/blog/02-示例2</link>
+            <guid>https://home.yinsel.top/blog/02-示例2</guid>
+            <pubDate>Sun, 14 Apr 2024 19:19:05 GMT</pubDate>
+            <category>示例Tag2</category>
+        </item>
+        <item>
+            <title><![CDATA[示例1]]></title>
+            <link>https://home.yinsel.top/blog/01-示例1</link>
+            <guid>https://home.yinsel.top/blog/01-示例1</guid>
+            <pubDate>Sun, 14 Apr 2024 19:18:42 GMT</pubDate>
+            <category>示例Tag1</category>
+        </item>
+    </channel>
+</rss>
