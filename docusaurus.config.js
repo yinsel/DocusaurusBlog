@@ -8,23 +8,23 @@ import {themes as prismThemes} from 'prism-react-renderer';
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'Yinselの小窝',  // -----------------------网站标题-----------------------
-  tagline: '记录知识的地方，避免遗忘。',   // -----------------------网站描述-----------------------
+  title: '网站标题',  // -----------------------网站标题-----------------------
+  tagline: '你的网站描述',   // -----------------------网站描述-----------------------
   favicon: 'img/yinsel.png',
   customFields: {
     "button": "Go",
     "docs": "knowledge",
     "mainTitle": "主页"
   },
-  url: 'https://home.yinsel.top/',   // -----------------------你的主页-----------------------
+  url: '',   // -----------------------你的主页-----------------------
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
   baseUrl: '/',
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
-  organizationName: 'yinsel', // -----------------------GitHub用户名-----------------------
-  projectName: 'yinsel.github.io', // -----------------------GitHub仓库-----------------------
+  organizationName: '', // -----------------------GitHub用户名-----------------------
+  projectName: '', // -----------------------GitHub仓库-----------------------
 
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
@@ -90,7 +90,7 @@ const config = {
       // Replace with your project's social card
       image: 'img/docusaurus-social-card.jpg',
       navbar: {
-        title: 'Yinselの小窝',   // -----------------------网站标题-----------------------
+        title: '网站标题',   // -----------------------网站标题-----------------------
         logo: {
           alt: 'Yinsel Logo',
           src: 'img/yinsel.png',
