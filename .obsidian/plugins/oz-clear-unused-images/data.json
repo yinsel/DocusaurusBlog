@@ -1,0 +1,7 @@
+{
+  "deleteOption": ".trash",
+  "logsModal": true,
+  "excludedFolders": "static/img",
+  "ribbonIcon": false,
+  "excludeSubfolders": false
+}
