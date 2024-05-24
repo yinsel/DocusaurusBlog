@@ -6,14 +6,13 @@ export default function Comment() {
   const {colorMode} = useColorMode(); // 获取当前主题
   return (
     // 前面放一个带 margin 的 div，美观
-	//-----------------------Giscus评论-----------------------
     <div style={{marginTop: "30px"}}>
       <Giscus
         repo=""
         repoId=""
         category=""
-        categoryId="" 
-        mapping="title"
+        categoryId=""
+        mapping=""
         term="Welcome to @giscus/react component!"
         strict="0"
         reactionsEnabled="1"
