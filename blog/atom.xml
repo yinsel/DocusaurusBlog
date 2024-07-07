@@ -1,24 +1,22 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>https://example.com/blog</id>
-    <title>网站标题 Blog</title>
-    <updated>2024-04-14T19:19:05.000Z</updated>
+    <id>https://blog.yinsel.top/blog</id>
+    <title>Yinselの小窝 Blog</title>
+    <updated>2024-04-14T11:23:11.000Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
-    <link rel="alternate" href="https://example.com/blog"/>
-    <subtitle>网站标题 Blog</subtitle>
-    <icon>https://example.com/img/yinsel.png</icon>
+    <link rel="alternate" href="https://blog.yinsel.top/blog"/>
+    <subtitle>Yinselの小窝 Blog</subtitle>
+    <icon>https://blog.yinsel.top/img/yinsel.png</icon>
     <entry>
-        <title type="html"><![CDATA[示例2]]></title>
-        <id>https://example.com/blog/02-示例2</id>
-        <link href="https://example.com/blog/02-示例2"/>
-        <updated>2024-04-14T19:19:05.000Z</updated>
-        <category label="示例Tag2" term="示例Tag2"/>
+        <title type="html"><![CDATA[01-博客1]]></title>
+        <id>https://blog.yinsel.top/blog/01-博客1</id>
+        <link href="https://blog.yinsel.top/blog/01-博客1"/>
+        <updated>2024-04-14T11:23:11.000Z</updated>
     </entry>
     <entry>
-        <title type="html"><![CDATA[示例1]]></title>
-        <id>https://example.com/blog/01-示例1</id>
-        <link href="https://example.com/blog/01-示例1"/>
-        <updated>2024-04-14T19:18:42.000Z</updated>
-        <category label="示例Tag1" term="示例Tag1"/>
+        <title type="html"><![CDATA[02-博客2]]></title>
+        <id>https://blog.yinsel.top/blog/02-博客2</id>
+        <link href="https://blog.yinsel.top/blog/02-博客2"/>
+        <updated>2024-04-14T11:23:11.000Z</updated>
     </entry>
 </feed>
