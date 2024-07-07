@@ -1,6 +1,7 @@
 {
-  "accentColor": "",
+  "accentColor": "#3a5ecb",
   "showViewHeader": true,
-  "baseFontSize": 15,
-  "baseFontSizeAction": true
+  "baseFontSize": 17,
+  "baseFontSizeAction": true,
+  "cssTheme": "Border"
 }

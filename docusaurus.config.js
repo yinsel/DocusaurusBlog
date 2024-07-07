@@ -8,24 +8,24 @@ import {themes as prismThemes} from 'prism-react-renderer';
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'Yinselの小窝',  // -----------------------网站标题-----------------------
-  tagline: '记录知识的地方，避免遗忘。',   // -----------------------网站描述-----------------------
-  favicon: 'img/yinsel.png',
+  title: 'Yinselの小窝',  // -----------------------网站标题----------------------- // 替换
+  tagline: '记录知识的地方，避免遗忘。',   // -----------------------网站描述----------------------- // 替换
+  favicon: 'img/yinsel.png', // 替换
   customFields: {
     "button": "Go",
     "docs": "knowledge",
     "mainTitle": "主页"
   },
   // 你的主页
-  url: 'https://home.yinsel.top/',
+  url: 'https://blog.yinsel.top/', // 替换
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
   baseUrl: '/',
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
-  organizationName: 'yinsel', // -----------------------GitHub用户名-----------------------
-  projectName: 'yinsel.github.io', // -----------------------GitHub仓库-----------------------
+  organizationName: 'yinsel', // -----------------------GitHub用户名----------------------- // 替换
+  projectName: 'yinsel.github.io', // -----------------------GitHub仓库----------------------- // 替换
 
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
@@ -48,7 +48,8 @@ const config = {
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
           editUrl:
-            'https://github.com/yinsel/yinsel.github.io/tree/main/',
+		  // 替换
+            'https://github.com/yinsel/yinsel.github.io/tree/main/',  // 替换
             showLastUpdateTime: true,
             showLastUpdateAuthor: true,
         },
@@ -59,7 +60,7 @@ const config = {
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
           editUrl:
-            'https://github.com/yinsel/yinsel.github.io/tree/main/',
+            'https://github.com/yinsel/yinsel.github.io/tree/main/',  // 替换
             blogTitle: "博客",
             blogSidebarTitle: "文章列表",
           blogSidebarCount: "ALL"
@@ -91,10 +92,10 @@ const config = {
       // Replace with your project's social card
       image: 'img/docusaurus-social-card.jpg',
       navbar: {
-        title: 'Yinselの小窝',   // -----------------------网站标题-----------------------
+        title: 'Yinselの小窝',   // -----------------------网站标题----------------------- // 替换
         logo: {
-          alt: 'Yinsel Logo',
-          src: 'img/yinsel.png',
+          alt: 'Yinsel Logo', // 替换
+          src: 'img/yinsel.png', // 替换
         },
         items: [
           {
@@ -105,7 +106,7 @@ const config = {
           },
           {to: '/blog', label: '博客', position: 'left'},
           {
-            href: 'https://github.com/yinsel/yinsel.github.io',
+            href: 'https://github.com/yinsel/yinsel.github.io', // 替换
             label: 'GitHub',
             position: 'right',
           },
@@ -166,6 +167,17 @@ const config = {
 		additionalLanguages: ['java','csharp','php'],
       },
     }),
+    plugins:[
+      async function myPlugin(context, options) {
+        return {
+          name: 'my-plugin',
+          async configureWebpack(config, isServer, utils) {
+            
+          },
+
+        };
+      },
+    ]
 };
 
 export default config;

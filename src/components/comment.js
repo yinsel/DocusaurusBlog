@@ -10,9 +10,9 @@ export default function Comment() {
       <Giscus
         repo=""
         repoId=""
-        category=""
+        category="General"
         categoryId=""
-        mapping=""
+        mapping="pathname"
         term="Welcome to @giscus/react component!"
         strict="0"
         reactionsEnabled="1"
